@@ -28,9 +28,19 @@
                 fxFlex.lt-md="0 1 calc(50% - 11px)"
                 fxFlex.lt-sm="100%">
 
-                    <mat-card-header>
-                      
-                    </mat-card-header>
+                    <mat-card-title class="mat-card-title-live">
+                      <div class="row">
+                        <p>
+                          <span style="font-size: 0.09rem;" fxFlex="70" fxLayoutAlign="start center">{{live.liveName}}</span>
+                          <span fxFlex></span>
+                          <span style="font-size: 0.07rem;" fxFlex="25" fxLayoutAlign="end center">{{live.liveDate}}</span>
+                          
+                        </p>
+                        <p>
+                          Canal:<span>{{live.channelName}}</span>
+                        </p>
+                      </div>
+                    </mat-card-title>
                     <mat-card-content>
                       <p>
                         The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
