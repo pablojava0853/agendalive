@@ -1,6 +1,6 @@
-# Agendalive
+# Agenda Live
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+Este projeto foi criado com Angular version 12.0.5.
 
 ## Development server
 
